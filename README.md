@@ -27,4 +27,9 @@ An AI-powered GitHub bot that automatically reviews pull requests using OpenAI m
    cd ai-code-reviewer
    pip install -r requirement.txt
    python app.py
+   For demo open another terminal and type the following:
+   curl -X POST http://127.0.0.1:5000/test-review \
+   -H "Content-Type: application/json" \
+   -d '{"code":"def add(a,b): return a+b\nprint(add(2,\"3\"))"}'
+
 
