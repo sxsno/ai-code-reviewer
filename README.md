@@ -25,3 +25,6 @@ An AI-powered GitHub bot that automatically reviews pull requests using OpenAI m
    ```bash
    git clone https://github.com/sxsno/ai-code-reviewer.git
    cd ai-code-reviewer
+   pip install -r requirements.txt
+   python app.py
+
